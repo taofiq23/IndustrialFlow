@@ -1,0 +1,109 @@
+{
+  "model_metrics": {
+    "accuracy": 0.97,
+    "f1": 0.9243697478991597,
+    "n_test": 600
+  },
+  "runs": [
+    {
+      "batch": "normal_1",
+      "run_id": "7417461b-0aba-4c34-b491-f381c71f63c8",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": false,
+      "temperature_drift_p_value": 0.611028,
+      "mean_risk_score": 0.0897
+    },
+    {
+      "batch": "normal_2",
+      "run_id": "0180d7bf-68ff-4f89-928d-fca8b3ae2d1d",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": false,
+      "temperature_drift_p_value": 0.089044,
+      "mean_risk_score": 0.0863
+    },
+    {
+      "batch": "normal_3",
+      "run_id": "a42d2392-2680-4752-b96c-3d2f190baee4",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": false,
+      "temperature_drift_p_value": 0.354778,
+      "mean_risk_score": 0.0933
+    },
+    {
+      "batch": "normal_4",
+      "run_id": "91187113-2b2a-434f-ba17-37f4a02f00e0",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": false,
+      "temperature_drift_p_value": 0.611028,
+      "mean_risk_score": 0.0891
+    },
+    {
+      "batch": "normal_5",
+      "run_id": "c23b639a-998b-4ba7-bba2-eae5b0f5fe20",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": false,
+      "temperature_drift_p_value": 0.228712,
+      "mean_risk_score": 0.0895
+    },
+    {
+      "batch": "normal_6",
+      "run_id": "309af3db-d28c-4e60-8fb9-a0d25ddad635",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": true,
+      "temperature_drift_p_value": 0.518577,
+      "mean_risk_score": 0.0827
+    },
+    {
+      "batch": "normal_7",
+      "run_id": "21550926-8e88-4e44-a8c2-f6c4ea008218",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": false,
+      "temperature_drift_p_value": 0.405476,
+      "mean_risk_score": 0.0831
+    },
+    {
+      "batch": "normal_8",
+      "run_id": "dcb7bb7c-e0b0-4c2b-bac7-4d889be91636",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": false,
+      "temperature_drift_p_value": 0.354778,
+      "mean_risk_score": 0.0853
+    },
+    {
+      "batch": "drifted_1",
+      "run_id": "9125c023-2a2b-4ac5-a27b-c553a41a10f9",
+      "n_rows_in": 200,
+      "n_rows_valid": 189,
+      "n_rows_quarantined": 11,
+      "drift_detected": true,
+      "temperature_drift_p_value": 0.0,
+      "mean_risk_score": 0.1132
+    },
+    {
+      "batch": "drifted_2",
+      "run_id": "70b1a993-c477-430d-be24-e9f3331778d6",
+      "n_rows_in": 200,
+      "n_rows_valid": 190,
+      "n_rows_quarantined": 10,
+      "drift_detected": true,
+      "temperature_drift_p_value": 0.0,
+      "mean_risk_score": 0.1107
+    }
+  ]
+}
