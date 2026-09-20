@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrr@{\hspace{1.6em}}rrrr}
+\toprule
+ & \multicolumn{4}{c}{\textbf{No drift: flagged (\%)}} & \multicolumn{4}{c}{\textbf{All columns +0.25 sd: flagged (\%)}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+\textbf{Alarm rule} & $\rho{=}0.0$ & $\rho{=}0.3$ & $\rho{=}0.6$ & $\rho{=}0.9$ & $\rho{=}0.0$ & $\rho{=}0.3$ & $\rho{=}0.6$ & $\rho{=}0.9$ \\
+\midrule
+uncorrected (released) & 2.88 & 2.58 & 2.53 & 2.00 & 75.2 & 68.8 & 63.2 & 52.6 \\
+Bonferroni & 1.02 & 1.00 & 0.86 & 0.72 & 58.0 & 51.9 & 47.3 & 38.4 \\
+Benjamini-Hochberg & 1.03 & 1.00 & 0.88 & 0.79 & 59.3 & 53.1 & 48.6 & 40.1 \\
+Fisher combination & 0.90 & 1.15 & 2.43 & 4.19 & 82.4 & 75.8 & 72.9 & 68.2 \\
+2-of-3 columns (per-column 0.01) & 0.01 & 0.02 & 0.16 & 0.57 & 31.1 & 33.3 & 34.8 & 36.2 \\
+2-of-3 columns (size-calibrated) & 0.67 & 1.00 & 2.29 & 3.92 & 71.6 & 68.9 & 67.7 & 65.9 \\
+\bottomrule
+\end{tabular}

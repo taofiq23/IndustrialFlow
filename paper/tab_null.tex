@@ -1,0 +1,16 @@
+\begin{tabular}{lcc}
+\toprule
+\textbf{Alarm rule} & \textbf{Batches flagged (\%) [95\% CI]} & \textbf{Theory (\%)} \\
+\midrule
+uncorrected (released) & 2.88 [2.57, 3.23] & 2.97 \\
+Bonferroni & 0.97 [0.80, 1.18] & 1.00 \\
+Benjamini-Hochberg & 0.97 [0.80, 1.18] & 1.00 \\
+Fisher combination & 0.92 [0.75, 1.13] & 1.00 \\
+2-of-3 columns (per-column 0.01) & 0.02 [0.01, 0.07] & 0.03 \\
+2-of-3 columns (size-calibrated) & 0.91 [0.74, 1.12] & 1.00 \\
+\midrule
+Single column: temperature c & 0.91 [0.74, 1.12] & 1.00 \\
+Single column: vibration mm s & 0.95 [0.78, 1.16] & 1.00 \\
+Single column: pressure kpa & 1.04 [0.86, 1.26] & 1.00 \\
+\bottomrule
+\end{tabular}

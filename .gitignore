@@ -5,3 +5,11 @@ venv/
 *.egg-info/
 .pytest_cache/
 data/
+
+# LaTeX build artifacts (paper.tex and paper.pdf are committed; these are not)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
